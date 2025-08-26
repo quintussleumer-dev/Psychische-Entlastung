@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Über uns | Praxis Sonnenseite</title>
+  <meta name="description" content="Lernen Sie Sandra und Quintus kennen – das Team der Praxis Sonnenseite." />
+  <meta name="robots" content="index,follow" />
+  <meta property="og:title" content="Über uns – Praxis Sonnenseite" />
+  <meta property="og:description" content="Sandra und Quintus stellen sich vor: Haltung, Qualifikationen, Schwerpunkte." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1523246191224-634d3e9b5cf9?q=80&w=1600&auto=format&fit=crop" />
+  <meta property="og:locale" content="de_DE" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='48' fill='%23f59e0b'/><text x='50' y='58' font-size='60' text-anchor='middle' fill='white'>☺</text></svg>">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .bg-soft {
+      background: radial-gradient(1200px 600px at 10% 10%, rgba(245, 158, 11, .08), transparent 50%),
+                  radial-gradient(1000px 500px at 90% 10%, rgba(59, 130, 246, .08), transparent 50%),
+                  radial-gradient(900px 600px at 50% 100%, rgba(16, 185, 129, .08), transparent 50%);
+    }
+    :focus-visible { outline: 3px solid rgba(59,130,246,.6); outline-offset: 2px; }
+  </style>
+</head>
+<body class="bg-[#fdfcf3] text-[#2e2e2e] tracking-tight">
+  <!-- Header -->
+  <header class="bg-white/80 backdrop-blur sticky top-0 z-50 border-b border-slate-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
+      <a href="index.html#start" class="flex items-center gap-3">
+        <span class="inline-flex h-9 w-9 items-center justify-center rounded-2xl bg-amber-400 text-white font-bold">PS</span>
+        <span class="font-semibold">Praxis Sonnenseite</span>
+      </a>
+      <nav aria-label="Hauptnavigation" class="hidden md:flex items-center gap-6 text-sm">
+        <a href="index.html#angebot" class="hover:text-slate-900">Angebot</a>
+        <a href="index.html#ablauf" class="hover:text-slate-900">Ablauf</a>
+        <a href="index.html#preise" class="hover:text-slate-900">Preise</a>
+        <a href="ueber-uns.html" class="hover:text-slate-900 font-semibold">Über uns</a>
+        <a href="index.html#faq" class="hover:text-slate-900">FAQ</a>
+        <a href="index.html#kontakt" class="px-3 py-2 rounded-xl bg-slate-900 text-white">Termin anfragen</a>
+      </nav>
+      <button class="md:hidden p-2 rounded-xl border" aria-label="Menü öffnen" onclick="document.getElementById('mnav').classList.toggle('hidden')">☰</button>
+    </div>
+    <div id="mnav" class="md:hidden hidden border-t">
+      <div class="px-4 py-3 flex flex-col gap-2 text-sm">
+        <a href="index.html#angebot" class="py-1">Angebot</a>
+        <a href="index.html#ablauf" class="py-1">Ablauf</a>
+        <a href="index.html#preise" class="py-1">Preise</a>
+        <a href="ueber-uns.html" class="py-1 font-semibold">Über uns</a>
+        <a href="index.html#faq" class="py-1">FAQ</a>
+        <a href="index.html#kontakt" class="py-2 rounded-xl bg-slate-900 text-white text-center">Termin anfragen</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Intro -->
+  <section class="bg-soft">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+      <h1 class="text-3xl sm:text-4xl font-semibold">Über uns</h1>
+      <p class="mt-4 text-slate-600 max-w-3xl">Wir glauben, dass Entlastung dort beginnt, wo Menschen mit ihrer Geschichte wirklich gesehen werden. Lernen Sie Sandra und Quintus kennen.</p>
+    </div>
+  </section>
+
+  <!-- Team -->
+  <section class="py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid gap-12">
+      <!-- Sandra -->
+      <article class="grid md:grid-cols-2 gap-10 items-center">
+        <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=1200&auto=format&fit=crop" alt="Sandra" class="rounded-3xl shadow-lg">
+        <div>
+          <h2 class="text-2xl sm:text-3xl font-semibold">Sandra</h2>
+          <p class="mt-4 text-slate-600">Beraterin (zert.), Schwerpunkt Stressbewältigung und Selbstfürsorge. Sandra schafft einen ruhigen, klaren Rahmen – mit viel Einfühlungsvermögen und alltagstauglichen Impulsen.</p>
+          <ul class="mt-4 text-slate-600 list-disc list-inside">
+            <li>Ausbildung: Systemische Beratung</li>
+            <li>Schwerpunkte: Überforderung, Grenzen, Kommunikation</li>
+            <li>Formate: Online & vor Ort</li>
+          </ul>
+        </div>
+      </article>
+
+      <!-- Quintus -->
+      <article class="grid md:grid-cols-2 gap-10 items-center md:flex-row-reverse">
+        <img src="https://images.unsplash.com/photo-1599566219226-8ce8f789f7d8?q=80&w=1200&auto=format&fit=crop" alt="Quintus" class="rounded-3xl shadow-lg order-1 md:order-2">
+        <div class="order-2 md:order-1">
+          <h2 class="text-2xl sm:text-3xl font-semibold">Quintus</h2>
+          <p class="mt-4 text-slate-600">Coach (zert.), Schwerpunkt Ressourcenstärkung und Orientierung. Quintus bringt Struktur in komplexe Situationen und vermittelt Ruhe – auch in akuten Belastungen.</p>
+          <ul class="mt-4 text-slate-600 list-disc list-inside">
+            <li>Ausbildung: Coaching & Kommunikation</li>
+            <li>Schwerpunkte: Entscheidungsfindung, Rollenklärung, Resilienz</li>
+            <li>Formate: Online & vor Ort</li>
+          </ul>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- Call to action -->
+  <section class="py-12 bg-slate-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-6">
+      <div>
+        <h3 class="text-xl font-semibold">Klingt passend?</h3>
+        <p class="text-slate-600 mt-1">Schreiben Sie uns kurz Ihr Anliegen und Wunschzeiten. Wir melden uns zeitnah.</p>
+      </div>
+      <a href="index.html#kontakt" class="px-5 py-3 rounded-xl bg-slate-900 text-white">Termin anfragen</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-12 border-t bg-slate-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-4 gap-8 text-sm">
+      <div>
+        <div class="font-semibold">Praxis Sonnenseite</div>
+        <p class="mt-2 text-slate-600">Psychische Entlastung für pflegende Angehörige.</p>
+      </div>
+      <div>
+        <div class="font-semibold">Sprechzeiten</div>
+        <p class="mt-2 text-slate-600">Mo–Fr 9–19 Uhr · nach Vereinbarung</p>
+      </div>
+      <div>
+        <div class="font-semibold">Kontakt</div>
+        <p class="mt-2 text-slate-600"><a href="mailto:hallo@example.de" class="underline">hallo@example.de</a><br/><a href="tel:+490000000000" class="underline">+49 0000 000000</a></p>
+      </div>
+      <div>
+        <div class="font-semibold">Rechtliches</div>
+        <ul class="mt-2 text-slate-600 space-y-1">
+          <li><a href="#" class="underline">Impressum</a></li>
+          <li><a href="#" class="underline">Datenschutz</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="mt-10 text-center text-xs text-slate-500">© <span id="year"></span> Praxis Sonnenseite</p>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
